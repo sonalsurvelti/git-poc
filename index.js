@@ -5,9 +5,10 @@ const port = 3000
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-app.get('/test', (req, res) => {
-    res.send('Hello test World!')
+app.get('/prod', (req, res) => {
+    res.send('Hello prod World!')
   })
+
 
 //add changes that needs to be pushed to test branch
 
